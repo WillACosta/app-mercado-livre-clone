@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "app-mercadolivre-clone"
+    }
+  },
+  "defaultProject": "app-mercadolivre-clone",
+  "cli": {
+    "analytics": "4b9b7d6d-02bb-46e3-ba0f-9f261f11f535"
+  }
 }

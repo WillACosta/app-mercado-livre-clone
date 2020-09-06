@@ -12,13 +12,10 @@ import { ProductComponent } from './components/product/product.component';
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    ProductComponent
+    ProductComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  imports: [BrowserModule, AppRoutingModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

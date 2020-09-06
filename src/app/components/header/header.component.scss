@@ -1,9 +1,51 @@
+$rbga-2: rgba(0, 0, 0, 0.2);
+$rbga-6: rgba(0, 0, 0, 0.6);
+$gray: #333;
+
 .navbar {
   height: 100px;
   background-color: var(--primary);
 }
 
-.navbar-brand {
-  width: 28px;
-  height: 28px;
+.lead-bolt {
+  font-size: 1.1em;
+  white-space: nowrap;
+}
+
+.lead-bolt .fa-bolt {
+  font-size: 1.58em;
+}
+
+/** Formulário e filhos */
+
+form {
+  box-shadow: 0 1px 2px 0 $rbga-2;
+
+  & .input-group {
+    width: 100%;
+  }
+
+  & .fa-search {
+    color: $rbga-6;
+  }
+
+  & .input-group-text {
+    background: #fff;
+  }
+}
+
+form input {
+  border: none;
+
+  &:focus {
+    border: none;
+    box-shadow: none;
+    z-index: 1;
+  }
+}
+
+form button {
+  border: none;
+  border-left: 1px solid $rbga-2;
+  z-index: 2;
 }
